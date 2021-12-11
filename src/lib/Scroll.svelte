@@ -16,7 +16,7 @@
 
 <div class="flex snap-x overflow-x-auto w-full gap-6 pb-8">
   {#if snapPosition === "center"}
-    <div class="snap-center shrink-0 w-[300px]" />
+    <div class="snap-center shrink-0 w-10 md:w-32 lg:w-[300px]" />
   {/if}
 
   {#each imgList as src}
@@ -25,6 +25,6 @@
     </div>
   {/each}
   {#if snapPosition === "center"}
-    <div class="snap-center shrink-0 w-[300px]" />
+    <div class="snap-center shrink-0 w-10 md:w-32 lg:w-[300px]" />
   {/if}
 </div>
